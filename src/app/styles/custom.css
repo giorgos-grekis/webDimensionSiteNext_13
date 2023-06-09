@@ -1,0 +1,409 @@
+.sf-menu > li .mega-menu, .sf-menu li > ul {
+    margin-top: 0px !important;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .item-media-custom {
+    max-height: 300px;
+    border: 5px solid grey;
+  
+    border-radius: 10px;
+  }
+  
+  .breadcrumb-container::after {
+    right:0.01px !important;
+    width:50.05% !important;
+  
+  }
+  
+  
+  
+  
+  
+  
+  .containertv {
+    height: 350px;
+    overflow: hidden;
+  
+    background-image: url(/screen-clipart-laptop.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  
+  }
+  
+  .containerscreen {
+    position: relative;
+    overflow: hidden;
+    top:4%;
+    height: 67%;
+    left: 3%;
+    width: 94%;
+  }
+  
+  .item-media-custom:hover img {
+    transform: translateY(calc(-100% + 300px));
+  }
+  .item-media-custom2:hover img {
+    transform: translateY(calc(-100% + 234px));
+  }
+  
+  .item-media-custom img {
+    transition: transform 3s ease;
+    min-height: 300px;
+  }
+  
+  .item-media-custom2 img {
+    transition: transform 3s ease;
+    min-height: 234px;
+  }
+  
+  .item-media-custom3 img {
+    max-width: 100% !important;
+  }
+  
+  
+  
+  .containerworks {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 100px;
+  }
+  .containerworks p {
+    color: #7f7f7f;
+  }
+  .imagecont {
+    height: 500px;
+    overflow: hidden;
+    /* border: 5px solid grey; */
+    /* border-radius: 10px; */
+  }
+  
+  .margin100 {
+    margin-bottom: 100px !important;
+  }
+  .padding0 {
+    padding-bottom: 0px !important;
+  }
+  
+  .breadcrumb-title{
+    text-transform: uppercase;
+  }
+  .notvalid {
+    border: 2px solid red;
+  }
+  
+  .submitbutton {
+    background-color: grey;
+    color: black;
+    border-color: red;
+    opacity: 0.3 !important;
+  }
+  
+  .submitbutton:hover {
+    cursor: auto;
+     background-color: grey;
+     color: black;
+  }
+  .currentpage {
+    background-color: #1f2732 !important;
+    border: 4px solid #1f2732;
+    color: #fff !important;
+    cursor: not-allowed;
+  }
+  .currentpage:hover {
+    border: none !important;
+  }
+  
+  /* Gia to eikonidio first sta seo */
+  
+  .firstdiv{
+   z-index: 100;
+   right: 3%;
+   top: 5%;
+   position: absolute;
+  }
+  
+  .firstdiv img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  /*Gia ta cloud tags  */
+  .clouditem {
+    transition: all 1s ease-in-out;
+  }
+  
+  /*Contact form button  */
+  
+  .contact-form .btn:disabled {
+    opacity: 1;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  .embed-custom::before {
+  
+  }
+  .imagecontdesktop {
+    position: relative;
+    background-image: url(/screen-clipart-laptop.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  
+  }
+  .mobilescreen {
+    position: relative;
+  top: 3.5%;
+  left: 6.8%;
+  height: 93.5%;
+  width: 87%;
+  overflow: hidden;
+  border: 1px solid rgba(0,0,0,0);
+  border-radius: 5%;
+  
+  }
+  
+  .desktopscreen {
+    position: relative;
+  top: 4%;
+  left:3.5%;
+  height: 66.3%;
+  width: 93.5%;
+  overflow: hidden;
+  }
+  .imagecontmobile {
+  
+    background-image: url(/Apple-iPhone-XS.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .imagecontinnerdesk {
+    width:calc(100% + 10px);
+    height: 100%;
+    overflow-y: scroll;
+  }
+  
+  .imagecontinnermob {
+    width:calc(100% + 10px);
+    height: 100%;
+    overflow-y: scroll;
+  }
+  
+  .imageinner {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    padding-right: 2%;
+  
+  }
+  
+  .imageouter {
+    position: absolute;
+    top: 0;
+    left: 0;
+  
+    z-index: 100;
+  
+  }
+  .imagescrollcont {
+    position: absolute;
+    font-size: 40px;
+    color: #fe497c;
+    bottom:30%;
+    left:50%;
+    margin-left:-20px;
+  
+  
+  
+  
+  
+  
+  }
+  
+  .imagecont:hover .imagescrollcont{
+    display: none;
+  }
+  /*gia to related works  */
+  .relatedworks .owl-stage {
+  
+      margin-left: auto;
+      margin-right: auto;
+  
+  
+  }
+  
+  
+  
+   /*React flag CSS here*/
+  .flag-select img {
+    /* top:0 !important; */
+    display: none;
+  }
+  
+  .flag-select .fa-globe {
+    color: white;
+  }
+  
+  .flag-select .arrow-down {
+    color:white !important;
+  }
+  
+  .selected--flag--option .country-label {
+    color: white;
+  }
+  .flag-select .flag-options img {
+     display: none;
+      /* background:#232b35 !important; */
+  
+  }
+  
+  
+  
+  .flag-select .flag-option:hover {
+    background-color: rgb(234, 234, 234, 0.1);
+  }
+  /* Flag mesa sto menu mono */
+  .flagcontmobile .selected--flag--option .country-label {
+  
+    font-weight: normal;
+  }
+  
+  
+  /*Tag header  */
+  .tagheader h6 {
+      text-align: center;
+      color: #363636;
+      background-color: #f3f3f5;
+      padding: 10px;
+      border: 2px solid #ececec;
+      border-radius: 10px;
+      letter-spacing: 1px;
+      font-weight: bold;
+  }
+  
+  
+  @media screen and (-webkit-min-device-pixel-ratio:0) {
+  
+      /*Chrome CSS here*/
+  
+      .imagecontinnermob {
+        width:calc(100% + 16px);
+        height: 100%;
+        overflow-y: scroll;
+      }
+      .imagecontinnerdesk {
+        width:calc(100% + 16px);
+        height: 100%;
+        overflow-y: scroll;
+      }
+  }
+  
+  
+  @media only screen and (min-width: 1500px) {
+    .imagecont {
+      height: 700px;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .imagecont {
+      height: 350px;
+    }
+    .imagecontinnerdesk img {
+      object-fit: cover;
+      height: 100%;
+      width: 100%;
+  
+    }
+    .imagescrollcont {
+      display: none;
+    }
+  
+  /* Gia works se kinita */
+    .containerworks {max-width: 100%;}
+  }
+  @media(max-width:1024px) {
+    /* Gia to Slider se kinita */
+    .page_slider .intro_before_featured_word {
+      font-size: 22px !important;
+      line-height: 26px;
+  }
+  
+  .page_slider .intro_after_featured_word {
+      font-size: 12px !important;
+      font-weight: 400;
+      letter-spacing: 0.7em;
+      margin-top: 39px;
+      margin-bottom: 30px;
+  }
+  
+  .page_slider .intro_layers .intro_layer .intro_featured_word  {
+      font-size: 30px !important;
+      line-height: 40px;
+      margin-bottom: 36px;
+  }
+  
+  }
+  
+  @media(max-width:766px) {
+    .slideimage {
+      display: none !important;
+    }
+  }
+  
+  
+  
+  a.logo img {
+    max-height: 40px;
+  }
+  
+  /* HACK gia na min ta deixnei lathos otan ginete gatsby build
+   Sto canvas component exei inline style={{display:'none'}}
+   */
+  #canvas{
+    display: block !important;
+  }
+  
+  /* Gia to google map */
+  .mapouter{position:relative;text-align:right;height:500px;width:100%;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:100%;}
+   .mapcontainer {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+  
+     margin-bottom: -50px;
+   }
+  
+  /* @media only screen and (max-width: 1070px) and (min-width: 768px)  {
+    .imagecontinnermob {
+      width:calc(100% + 10px);
+      height: 100%;
+      overflow-y: scroll;
+    }
+  
+  } */
+  
+  
+  /* .imagecont img {
+    transition: transform 3s ease;
+  }
+  
+  .imagecont:hover img {
+    transform: translateY(calc(-100% + 500px));
+  } */
+  

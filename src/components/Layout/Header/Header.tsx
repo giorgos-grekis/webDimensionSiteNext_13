@@ -5,7 +5,7 @@ import React from 'react'
 
 const Header = (props) => {
 
-  const handleClick = (e: EventTarget) => {
+  const handleClick = (e: any) => {
 
     console.log('handleClick: ', e);
     
